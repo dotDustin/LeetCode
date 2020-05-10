@@ -19,16 +19,16 @@ func numberToWords(_ num: Int) -> String {
       for characters in newerDigits.reversed() {
           if hundreds.count < 3 {
               hundreds.insert(characters, at: 0)
-              newerDigits.remove(at: digits.startIndex)
+              newerDigits.remove(at: newerDigits.startIndex)
           } else if thousands.count < 3 {
               thousands.insert(characters, at: 0)
-              newerDigits.remove(at: digits.startIndex)
+              newerDigits.remove(at: newerDigits.startIndex)
           } else if millions.count < 3 {
               millions.insert(characters, at: 0)
-              newerDigits.remove(at: digits.startIndex)
+              newerDigits.remove(at: newerDigits.startIndex)
           } else if billions.count < 3 {
               billions.insert(characters, at: 0)
-              newerDigits.remove(at: digits.startIndex)
+              newerDigits.remove(at: newerDigits.startIndex)
           }
       }
       
