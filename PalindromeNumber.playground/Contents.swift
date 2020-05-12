@@ -1,6 +1,5 @@
 import UIKit
 
-
     func isPalindrome(_ x: Int) -> Bool {
         let number = String(x)
         var palindromeArray = Array(number)
