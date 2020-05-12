@@ -13,6 +13,17 @@ Input: 121
 Output: true
 ```
 
+### [12. Interger to Roman](https://leetcode.com/problems/integer-to-roman/)
+
+Given an integer, convert it to a roman numeral. Input is guaranteed to be within the range from 1 to 3999.
+
+**Example 5:**
+
+```
+Input: 1994
+Output: "MCMXCIV"
+Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
+```
 
 ### 273. [Interger to English Words](https://leetcode.com/problems/integer-to-english-words/)
 
