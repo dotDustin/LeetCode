@@ -36,6 +36,18 @@ Input: "A man, a plan, a canal: Panama"
 Output: true
 ```
 
+### [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
+
+Given an input string, reverse the string word by word. A word is defineds as a sequence of non-space characters. Input string may contain leading or trailing spaces. However, reversed string should not contain leading or trailing spaces.
+
+**Example 2:**
+
+```
+Input: "  hello world!  "
+Output: "world! hello"
+Explanation: Your reversed string should not contain leading or trailing spaces.
+```
+
 ### [Interger to English Words](https://leetcode.com/problems/integer-to-english-words/)
 
 ​	Convert a non-negative integer to its english words representation. Given input is guaranteed to be less than 2^31 - 1.
