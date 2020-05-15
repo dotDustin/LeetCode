@@ -27,7 +27,7 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 ### [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
-Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases
+Given a string, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
 
 **Example 1:**
 
@@ -46,6 +46,19 @@ Given an input string, reverse the string word by word. A word is defineds as a 
 Input: "  hello world!  "
 Output: "world! hello"
 Explanation: Your reversed string should not contain leading or trailing spaces.
+```
+
+### [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+
+Given an array of integers, find if the array contains any duplicates.
+
+Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.
+
+**Example 3:**
+
+```
+Input: [1,1,1,3,3,4,3,2,4,2]
+Output: true
 ```
 
 ### [Interger to English Words](https://leetcode.com/problems/integer-to-english-words/)
