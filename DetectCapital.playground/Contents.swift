@@ -4,27 +4,36 @@ func detectCapitalUse(_ word: String) -> Bool {
     
     let wordArray = word.map( { String($0) })
     
-    //let firstLetter = word.first
     let firstUpper = wordArray[0]
     let restOfWord = word.dropFirst()
+    
     let restOfWordArray = restOfWord.map( { String($0) })
     
     if Character(firstUpper).isUppercase {
         var firstUpper: Bool?
         var currentUpper: Bool?
-        for letter in restOfWord {
-            if letter.isUppercase {
+        
+        for letter in restOfWordArray {
+            if Character(letter).isUppercase {
                 currentUpper = true
-                if firstUpper == true || firstUpper == false {
-                    if currentUpper != firstUpper {
-                        return false
-                    }
-                }
-                if currentUpper == firstUpper {
-                    
+                if firstUpper == false {
+                    return false
+                } else if firstUpper == nil {
+                    firstUpper = currentUpper
                 }
             } else {
                 currentUpper = false
+                if firstUpper == true  {
+                    return false
+                } else if firstUpper == nil {
+                    firstUpper = currentUpper
+                }
+            }
+        }
+    } else { // first letter is lowercase
+        for letter in restOfWordArray {
+            if Character(letter).isUppercase {
+                return false
             }
         }
     }
@@ -32,4 +41,4 @@ func detectCapitalUse(_ word: String) -> Bool {
     return true
 }
 
-detectCapitalUse("Stuff")
+detectCapitalUse("Bye")
