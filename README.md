@@ -38,7 +38,7 @@ Output: true
 
 ### [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)
 
-Given an input string, reverse the string word by word. A word is defineds as a sequence of non-space characters. Input string may contain leading or trailing spaces. However, reversed string should not contain leading or trailing spaces.
+Given an input string, reverse the string word by word. A word is defined as a sequence of non-space characters. Input string may contain leading or trailing spaces. However, reversed string should not contain leading or trailing spaces.
 
 **Example 2:**
 
@@ -173,5 +173,19 @@ Input: [[1,1,0],[1,0,1],[0,0,0]]
 Output: [[1,0,0],[0,1,0],[1,1,1]]
 Explanation: First reverse each row: [[0,1,1],[1,0,1],[0,0,0]].
 Then, invert the image: [[1,0,0],[0,1,0],[1,1,1]]
+```
+
+### [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
+
+Given two strings `S` and `T`, return if they are equal when both are typed into empty text editors. `#` means a backspace character.
+
+Note that after backspacing an empty text, the text will continue empty.
+
+**Example 3:**
+
+```
+Input: S = "a##c", T = "#a#c"
+Output: true
+Explanation: Both S and T become "c".
 ```
 
