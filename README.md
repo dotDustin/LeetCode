@@ -210,3 +210,13 @@ Input: x = 120
 Output: 21
 ```
 
+### Make Seconds into Readable String
+
+Given an interger of seconds between 0 and 86,399, convert it into a readable string of hours minutes and seconds: XXhXXmXXs.
+
+**Example:**
+
+```
+Input: x = 7865
+Output: "2h11m5s"
+```

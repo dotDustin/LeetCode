@@ -1,11 +1,22 @@
 import Foundation
 
-let romanDict = ["I":1, "V":5, "X":10, "L":50, "C":100, "D":500, "M":1000]
-let s = "MCMXVII"
-let numbersAsSingleStrings = s.components(separatedBy: "")
-print(numbersAsSingleStrings)
-var numbersInArray: [String] = []
 
+
+
+
+    //let romanDict = ["I":1, "V":5, "X":10, "L":50, "C":100, "D":500, "M":1000]
+    let s = "MCMXVII"
+    print(s)
+    
+    func romanToInt(_ s: String) -> Int {
+        return 1
+    }
+
+
+//let numbersAsSingleStrings = s.components(separatedBy: "")
+//print(numbersAsSingleStrings)
+//var numbersInArray: [String] = []
+/*
 func romanToInt(_ s: String) -> Int {
 //    var numbersAsChars = Array(s)
     let numbersAsSingleStrings = s.components(separatedBy: "")
@@ -35,6 +46,6 @@ func romanToInt(_ s: String) -> Int {
     
     return 1
 }
-
+*/
 //romanToInt("MCMXVII")
 
