@@ -220,3 +220,17 @@ Given an interger of seconds between 0 and 86,399, convert it into a readable st
 Input: x = 7865
 Output: "2h11m5s"
 ```
+
+### Find Icon With Coordinates
+
+You are given two arrays A representing the X position of each icon, and B representing the Y position of each icon. The given X and Y position coordinates represent the center of a user tap. 
+
+To be recognized, the user tap must be within a radius of 20 units from the center of the icon. Assume no icon zones are overlapping. Icon's are numbered [N+1].
+
+**Example:**
+
+```
+Input: A = [100, 200, 100], B = [50, 100, 100], X = 100, Y = 100
+Output: 2
+```
+
